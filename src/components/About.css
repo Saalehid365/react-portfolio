@@ -1,0 +1,7 @@
+.abt {
+  height: 300px;
+  background-color: rgb(160, 175, 205);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

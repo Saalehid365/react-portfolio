@@ -1,0 +1,12 @@
+.projects-section {
+  height: 700px;
+  background-color: aliceblue;
+}
+.inner-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 100px;
+  background-color: red;
+  border-style: double black;
+}

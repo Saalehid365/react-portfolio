@@ -1,7 +1,10 @@
 .skcon {
-  height: 100vh;
+  height: 700px;
   background-color: rgb(16, 15, 15);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .skcon h2 {
   color: white;
@@ -11,17 +14,14 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr;
-  height: 80%;
   row-gap: 40px;
-  margin-top: 10px;
 
   align-items: center;
   justify-items: center;
 }
 .skills-list {
   width: 250px;
-  height: 235px;
+  height: 150px;
   background-color: rgb(52, 51, 51);
   border-radius: 10px;
 }

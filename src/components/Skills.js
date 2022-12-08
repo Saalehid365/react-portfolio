@@ -3,7 +3,7 @@ import "./Skills.css";
 export const Skills = () => {
   return (
     <div className="skcon">
-      <h2> My skillset</h2>
+      <h2> Tools I use</h2>
       <div className="container">
         <div className="skills-list">
           <div className="icon-frame">
