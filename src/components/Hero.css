@@ -1,0 +1,63 @@
+.Title-container {
+  height: 92vh;
+  background-color: rgb(34, 32, 32);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 100px;
+}
+
+.title-info {
+  width: 400px;
+  text-align: start;
+  font-weight: 500;
+  color: white;
+}
+.title-info span {
+  color: rgb(87, 128, 211);
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.title-right {
+  height: 200px;
+  width: 400px;
+  margin-right: 100px;
+  background-color: rgb(209, 1, 1);
+  border-radius: 10px;
+}
+.hire-me-btn {
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(9, 14, 124, 1) 0%,
+    rgba(4, 120, 193, 1) 100%,
+    rgba(3, 143, 209, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-style: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+.hire-me-btn:hover {
+  opacity: 0.6;
+}
+.title-left h1 {
+  font-size: 4rem;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  color: white;
+}
