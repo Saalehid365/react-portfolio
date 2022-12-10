@@ -1,4 +1,5 @@
 import "./Skills.css";
+import { FaHtml5, FaCss3, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
 
 export const Skills = () => {
   return (
@@ -7,33 +8,33 @@ export const Skills = () => {
       <div className="container">
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaHtml5 className="icons" />
           </div>
           <h3>HTML</h3>
         </div>
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaCss3 className="icons" />
           </div>
           <h3>CSS</h3>
         </div>
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaJsSquare className="icons" />
           </div>
           <h3>Javascript</h3>
         </div>
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaReact className="icons" />
           </div>
           <h3>React</h3>
         </div>
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaNodeJs className="icons" />
           </div>
-          <h3>Typescript</h3>
+          <h3>NodeJs</h3>
         </div>
         <div className="skills-list">
           <div className="icon-frame">

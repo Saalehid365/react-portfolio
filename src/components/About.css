@@ -1,7 +1,10 @@
 .abt {
   height: 300px;
-  background-color: rgb(160, 175, 205);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.abt h3 {
+  font-size: 1.8rem;
 }

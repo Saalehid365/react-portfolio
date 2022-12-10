@@ -8,20 +8,20 @@ export const Navbar = () => {
         <p> ID365 </p>
       </div>
       <div className="links">
-        <Link style={{ textDecoration: "none" }} to="/">
+        <Link className="nav-link-list" to="/">
           Home
         </Link>
-        <Link style={{ textDecoration: "none" }} to="/About">
+        <Link className="nav-link-list" to="/About">
           About
         </Link>
-        <Link style={{ textDecoration: "none" }} to="/Projects">
+        <Link className="nav-link-list" to="/Projects">
           Projects
         </Link>
-        <Link style={{ textDecoration: "none" }} to="/Contact">
+        <Link className="nav-link-list" to="/Contact">
           Contact
         </Link>
         <button className="nav-hire-btn">
-          <Link style={{ textDecoration: "none" }} to="/">
+          <Link className="nav-link-list" to="/">
             Hire me
           </Link>
         </button>
