@@ -10,7 +10,9 @@ export const Hero = () => {
           passionate about devloping and building applications that lead to the
           success of the overall product.
         </p>
-        <button className="hire-me-btn"> Download CV</button>
+        <button className="hire-me-btn" value="download">
+          Download CV
+        </button>
       </div>
       <div>
         <img className="hero-img" src={vectore} alt="laptop"></img>

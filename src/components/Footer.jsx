@@ -1,10 +1,5 @@
 import "./Footer.css";
-import {
-  FaTwitter,
-  AiFillLinkedin,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -25,11 +20,8 @@ export const Footer = () => {
       </div>
       <div>
         <p className="designed">
-          Designed and developed by
-          <span className="anthony">Anthony Nelson</span>
-          <br>
-            <span className="id365">I Develop 365</span>
-          </br>
+          Designed and developed by &nbsp;
+          <span className="anthony">Anthony Nelson I Develop 365</span>
         </p>
       </div>
     </div>
