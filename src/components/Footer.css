@@ -40,3 +40,12 @@
 .anthony {
   color: rgb(87, 128, 211);
 }
+
+@media all and (max-width: 480px) {
+  .socials {
+    width: 200px;
+  }
+  .designed {
+    font-size: 0.7rem;
+  }
+}
