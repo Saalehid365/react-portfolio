@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding-left: 100px;
+  padding-left: 20px;
 }
 
 .title-info {
@@ -65,4 +65,57 @@
 .hero-img {
   width: 300px;
   height: 300px;
+}
+
+@media all and (max-width: 800px) {
+  .Title-container {
+    padding: 0;
+  }
+  .hero-img {
+    height: 200px;
+    width: 200px;
+  }
+  .title-left h1 {
+    font-size: 2rem;
+  }
+  .nav-hire-btn {
+    height: 20px;
+  }
+  .hire-me-btn {
+    height: 30px;
+    width: 150px;
+  }
+  .title-info {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .Title-container {
+    padding: 0;
+  }
+  .hero-img {
+    display: none;
+  }
+  .title-left {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title-left h1 {
+    font-size: 1.4rem;
+  }
+  .nav-hire-btn {
+    height: 20px;
+  }
+  .hire-me-btn {
+    height: 30px;
+    width: 150px;
+  }
+  .title-info {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }

@@ -5,6 +5,7 @@ import { FaEnvelopeOpen } from "react-icons/fa";
 export const Contact = () => {
   const { register, handleSubmit } = useForm();
   console.log("hello world");
+
   const onSubmit = () => {};
   return (
     <div className="chat-form">
@@ -21,7 +22,7 @@ export const Contact = () => {
       <div className="formbox">
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-name-email">
-            <div className="field-tabs">
+            <div className="field-tabs name-email">
               <p>Name</p>
               <input
                 className="field field1 "
@@ -53,7 +54,7 @@ export const Contact = () => {
           </div>
           <div>
             <button className="fieldsubmit">
-              <FaEnvelopeOpen size="1rem" color="white" />
+              <FaEnvelopeOpen className="envelope" size="1rem" color="white" />
               <input className=" submitbtn" type="submit" />
             </button>
           </div>

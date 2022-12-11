@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons";
 
 export const Navbar = () => {
   return (
     <div className="nav-bar">
       <div>
-        <p> ID365 </p>
+        <p className="logo"> ID365 </p>
       </div>
       <div className="links">
         <Link className="nav-link-list" to="/">

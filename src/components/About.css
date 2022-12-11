@@ -8,3 +8,23 @@
 .abt h3 {
   font-size: 1.8rem;
 }
+@media all and (max-width: 800px) {
+  .inner-about {
+    display: flex;
+    justify-content: center;
+  }
+  .inner-about p {
+    width: 500px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 480px) {
+  .inner-about {
+    display: flex;
+    justify-content: center;
+  }
+  .inner-about p {
+    width: 500px;
+    text-align: center;
+  }
+}

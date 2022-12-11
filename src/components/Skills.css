@@ -34,3 +34,15 @@
   font-size: 5rem;
   color: rgb(87, 128, 211);
 }
+@media all and (max-width: 800px) {
+  .skills-list {
+    height: 150px;
+    width: 150px;
+  }
+  .icons {
+    font-size: 3rem;
+  }
+  .fieldsubmit {
+    height: 20px;
+  }
+}

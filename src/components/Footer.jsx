@@ -4,6 +4,7 @@ import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 export const Footer = () => {
   return (
     <div className="footer-container">
+      <p className="living">Living, learning & leveling up one day at a time</p>
       <div className="socials">
         <a href="https://twitter.com/idevelop365" className="socialscircle">
           <FaTwitter className="social" />
