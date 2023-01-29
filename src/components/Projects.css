@@ -2,7 +2,8 @@
   margin-top: 150px;
 }
 .project-title h3 {
-  font-size: 3rem;
+  font-size: 2rem;
+  letter-spacing: 4px;
 }
 .pro-container {
   display: flex;
@@ -10,12 +11,12 @@
   margin-top: 200px;
 }
 .p-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
 }
 .p-type {
   color: rgb(109, 131, 242);
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .pro-con-title {
@@ -25,13 +26,13 @@
   justify-content: space-evenly;
 }
 .project-img img {
-  height: 400px;
-  width: 600px;
+  height: 300px;
+  width: 500px;
   border: 1px solid black;
   border-radius: 10px;
 }
 .pro-buttons {
-  width: 300px;
+  width: 250px;
   display: flex;
   justify-content: space-between;
 }
@@ -39,10 +40,10 @@
   background-color: rgba(9, 118, 9, 0.235);
 }
 .pro-btn {
-  width: 120px;
+  width: 100px;
   height: 40px;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .pro-btn a:link {
   text-decoration: none;

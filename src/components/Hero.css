@@ -1,5 +1,5 @@
 .Title-container {
-  height: 92vh;
+  height: 85vh;
   background-color: rgb(193, 189, 189);
   display: flex;
   justify-content: space-evenly;
@@ -15,24 +15,24 @@
 .img-title {
   border-radius: 18% 82% 70% 30% / 50% 37% 63% 50%;
   background-color: rgb(47, 66, 125);
-  height: 600px;
-  width: 700px;
+  height: 400px;
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .title-info {
-  width: 800px;
+  width: 500px;
   text-align: start;
-  font-weight: 500;
+  font-weight: bold;
   color: white;
   font-size: 1.5rem;
   letter-spacing: 3px;
 }
 .title-info span {
   color: rgb(87, 128, 211);
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
 }
 .title-right {
@@ -68,14 +68,14 @@
   opacity: 0.6;
 }
 .title-left h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 4px;
-  font-weight: bolder;
+  font-weight: bold;
   color: rgb(109, 131, 242);
 }
 .hero-img {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
 }
 
 @media all and (max-width: 800px) {

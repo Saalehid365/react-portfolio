@@ -6,11 +6,11 @@
 }
 
 .chat-left h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: rgb(109, 131, 242);
 }
 .chat-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .formbox {
   display: flex;

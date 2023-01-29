@@ -43,12 +43,26 @@ export const Projects = () => {
         <div className="pro-container">
           <div className="pro-con-title">
             <div className="pro-title">
-              <p className="p-title">Traditionl Wellness</p>
+              <p className="p-title">Traditional Wellness</p>
               <p className="p-type">Website</p>
             </div>
             <div className="pro-buttons">
-              <button className="pro-button1 pro-btn">Code</button>
-              <button className="pro-button2 pro-btn">Live</button>
+              <button className="pro-button1 pro-btn">
+                <a
+                  href="https://github.com/Saalehid365/homeschoolTrippy"
+                  target="_blank"
+                >
+                  Code
+                </a>
+              </button>
+              <button className="pro-button2 pro-btn">
+                <a
+                  href="https://github.com/Saalehid365/homeschoolTrippy"
+                  target="_blank"
+                >
+                  Live
+                </a>
+              </button>
             </div>
           </div>
           <div className="project-img">

@@ -24,7 +24,7 @@ export const Navbar = () => {
           Contact
         </Link>
         <button className="nav-hire-btn">
-          <Link className="nav-link-list" to="/">
+          <Link className="nav-link-list nll-hire" to="/">
             Hire me
           </Link>
         </button>
