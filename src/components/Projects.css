@@ -1,12 +1,56 @@
-.projects-section {
-  height: 700px;
-  background-color: aliceblue;
+.project-title {
+  margin-top: 150px;
 }
-.inner-projects {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 100px;
-  background-color: red;
-  border-style: double black;
+.project-title h3 {
+  font-size: 3rem;
+}
+.pro-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+.p-title {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.p-type {
+  color: rgb(109, 131, 242);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.pro-con-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project-img img {
+  height: 400px;
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.pro-buttons {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.pro-btn:hover {
+  background-color: rgba(9, 118, 9, 0.235);
+}
+.pro-btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.pro-btn a:link {
+  text-decoration: none;
+  color: black;
+}
+.pro-btn a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  width: 100%;
 }

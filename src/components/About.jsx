@@ -5,7 +5,6 @@ export const About = () => {
     <div className="abt">
       <div>
         <h3>About me</h3>
-        <img src="/"></img>
       </div>
       <div className="inner-about">
         <p>

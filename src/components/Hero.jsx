@@ -14,7 +14,7 @@ export const Hero = () => {
           Download CV
         </button>
       </div>
-      <div>
+      <div className="img-title">
         <img className="hero-img" src={vectore} alt="laptop"></img>
       </div>
     </div>

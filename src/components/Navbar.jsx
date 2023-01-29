@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons";
+import { FaConnectdevelop } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
     <div className="nav-bar">
-      <div>
-        <p className="logo"> ID365 </p>
+      <div className="logo-con">
+        <FaConnectdevelop className="develop" />
+        <p className="logo"> IDevelop365 </p>
       </div>
       <div className="links">
         <Link className="nav-link-list" to="/">

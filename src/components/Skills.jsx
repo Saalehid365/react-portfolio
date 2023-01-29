@@ -1,10 +1,17 @@
 import "./Skills.css";
-import { FaHtml5, FaCss3, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaCss3,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
+} from "react-icons/fa";
 
 export const Skills = () => {
   return (
     <div className="skcon">
-      <h2> Tools I use</h2>
+      <h3> Tools I use</h3>
       <div className="container">
         <div className="skills-list">
           <div className="icon-frame">
@@ -38,9 +45,9 @@ export const Skills = () => {
         </div>
         <div className="skills-list">
           <div className="icon-frame">
-            <i></i>
+            <FaGithub className="icons" />
           </div>
-          <h3>React Query</h3>
+          <h3>Github</h3>
         </div>
       </div>
     </div>
