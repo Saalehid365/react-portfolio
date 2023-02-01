@@ -1,6 +1,6 @@
 .footer-container {
-  height: 175px;
-  background-color: black;
+  height: 145px;
+  background-color: rgba(47, 45, 45);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  background-color: black;
+  background-color: rgba(47, 45, 45);
   border: 1px rgba(255, 255, 255, 0.65) solid;
 }
 .social {
@@ -39,6 +39,7 @@
 }
 .anthony {
   color: rgb(87, 128, 211);
+  font-weight: bold;
 }
 
 @media all and (max-width: 480px) {

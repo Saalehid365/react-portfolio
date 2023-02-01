@@ -25,10 +25,7 @@ export const Projects = () => {
                 </a>
               </button>
               <button className="pro-button2 pro-btn">
-                <a
-                  href="https://github.com/Saalehid365/homeschoolTrippy"
-                  target="_blank"
-                >
+                <a href="https://home-ed-tifaal.co.uk/" target="_blank">
                   Live
                 </a>
               </button>
@@ -49,6 +46,7 @@ export const Projects = () => {
             <div className="pro-buttons">
               <button className="pro-button1 pro-btn">
                 <a
+                  className="btn-a"
                   href="https://github.com/Saalehid365/homeschoolTrippy"
                   target="_blank"
                 >

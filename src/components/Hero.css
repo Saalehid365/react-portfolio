@@ -14,7 +14,7 @@
 }
 .img-title {
   border-radius: 18% 82% 70% 30% / 50% 37% 63% 50%;
-  background-color: rgb(47, 66, 125);
+  background-color: rgba(47, 66, 125, 0.463);
   height: 400px;
   width: 500px;
   display: flex;
@@ -27,7 +27,7 @@
   text-align: start;
   font-weight: bold;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   letter-spacing: 3px;
 }
 .title-info span {
@@ -42,28 +42,7 @@
   background-color: rgb(209, 1, 1);
   border-radius: 10px;
 }
-.hire-me-btn {
-  margin-top: 20px;
-  height: 40px;
-  width: 200px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 0%,
-    rgba(9, 14, 124, 1) 0%,
-    rgba(4, 120, 193, 1) 100%,
-    rgba(3, 143, 209, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  border-style: none;
-  border-radius: 5px;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  color: white;
-  cursor: pointer;
-  letter-spacing: 3px;
-}
+
 .hire-me-btn:hover {
   opacity: 0.6;
 }
@@ -71,14 +50,14 @@
   font-size: 3rem;
   letter-spacing: 4px;
   font-weight: bold;
-  color: rgb(109, 131, 242);
+  color: rgb(67, 96, 240);
 }
 .hero-img {
   width: 400px;
   height: 400px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
   .Title-container {
     padding: 0;
   }
@@ -105,7 +84,7 @@
   .Title-container {
     padding: 0;
   }
-  .hero-img {
+  .img-title {
     display: none;
   }
   .title-left {
@@ -117,6 +96,7 @@
   }
   .title-left h1 {
     font-size: 2.6rem;
+    width: 200px;
   }
   .nav-hire-btn {
     height: 20px;
@@ -127,7 +107,7 @@
   }
   .title-info {
     font-size: 0.8rem;
-    text-align: center;
+    text-align: start;
   }
 }
 

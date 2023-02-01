@@ -45,6 +45,11 @@
   border-radius: 5px;
   font-size: 1rem;
 }
+.pro-button1 {
+  width: 100px;
+  cursor: pointer;
+}
+
 .pro-btn a:link {
   text-decoration: none;
   color: black;
@@ -54,4 +59,24 @@
   text-decoration: none;
   font-weight: bolder;
   width: 100%;
+  cursor: pointer;
+}
+@media all and (max-width: 480px) {
+  .pro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 100px;
+  }
+  .project-img img {
+    height: 250px;
+    width: 350px;
+  }
+  .pro-con-title {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-evenly;
+  }
 }

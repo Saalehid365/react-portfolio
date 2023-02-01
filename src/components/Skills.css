@@ -34,14 +34,33 @@
 }
 
 .skills-list h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: rgb(87, 128, 211);
 }
 .icon-frame {
   font-size: 5rem;
   color: rgb(87, 128, 211);
 }
-@media all and (max-width: 800px) {
+.html {
+  color: rgb(227, 76, 38);
+}
+.css {
+  color: rgb(38, 77, 228);
+}
+
+.js {
+  color: #f0db4f;
+}
+.react {
+  color: #61dbfb;
+}
+.node {
+  color: rgb(60, 135, 58);
+}
+.github {
+  color: rgb(47, 47, 47);
+}
+@media all and (max-width: 600px) {
   .skills-list {
     height: 150px;
     width: 150px;
@@ -52,9 +71,17 @@
 }
 @media all and (max-width: 480px) {
   .skcon {
-    height: 400px;
+    height: 600px;
   }
-
+  .container {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    row-gap: 100px;
+  }
   .skills-list {
     height: 75px;
     width: 75px;

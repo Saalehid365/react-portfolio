@@ -53,7 +53,7 @@
   color: white;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 600px) {
   .links {
     font-size: 0.8rem;
   }
@@ -66,6 +66,9 @@
   .nav-bar {
     height: 170px;
     background-color: rgb(245, 245, 245);
+  }
+  .develop {
+    display: none;
   }
   .logo {
     display: none;
