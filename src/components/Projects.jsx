@@ -1,5 +1,5 @@
 import "./Projects.css";
-import homeEdTrippers from "../assets/homeEdTrippers.jpg";
+import homeEdTrippers from "../assets/homeed.jpg";
 import traditionalWellness from "../assets/traditionalwellness.jpg";
 
 export const Projects = () => {
